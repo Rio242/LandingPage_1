@@ -103,13 +103,33 @@ header{
     padding-bottom: 100px;
     
 }
-footer{
-    background-color: #1F2937;
+/*random information section*/
+.random-info-section{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
 
+}
+.random-info-section p {
+    width: 160px;
+    
+}
+.random-info{
+    color:#1F2937 ;
+    font-weight: bolder;
+    font-size: 36px;
+    text-align: center;
+    padding-bottom: 20px;
+}
+img{
+    width: 100px;
+    height: 100px;
+    border: 4px solid #3882F8;
+    border-radius: 1rem;
 }
 
 
-
+/*Gray section*/
 .grey-section{
     background-color: #E5E7EB;
 }
@@ -129,13 +149,18 @@ footer{
     
 
 }
+/*Footer section*/
+footer{
+    background-color: #1F2937;
+
+}
 .footer-font{
     color: #E5E7EB;
     font-size: ;
     padding: 10px 10px 10px 10px ;
     
 
-}
+} 
 
 .container{
     width: 100%;
