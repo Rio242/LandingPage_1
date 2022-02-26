@@ -108,10 +108,13 @@ header{
     display: flex;
     justify-content: space-between;
     text-align: center;
+    padding: 0px 250px 0 250px;
 
 }
 .random-info-section p {
-    width: 160px;
+    width: 129px;
+    
+    
     
 }
 .random-info{
@@ -120,6 +123,7 @@ header{
     font-size: 36px;
     text-align: center;
     padding-bottom: 20px;
+    padding-top: 20px;
 }
 img{
     width: 100px;
@@ -129,7 +133,7 @@ img{
 }
 
 
-/*Gray section*/
+/*Grey section*/
 .grey-section{
     background-color: #E5E7EB;
 }
@@ -137,21 +141,29 @@ img{
 
 
 .quote{
-    
-    padding: 50px 50px 50px 50px ;
-    font-family: 'light italic';
+    padding: 75px 250px 10px  250px ;
+    font-style:  italic;
     color: #1F2937; 
     font-size: 36px;
-    text-align: center;
-    padding-right: 50px;
-    padding-left: 50px;
+    text-align: justify;
+  
     
     
+}
+
+/* css for quote name*/
+.grey-section div{
+    padding: 0 250px 50px 250px;
+    text-align: right;
+    color: #1F2937;
+    font-weight: bolder;
+    font-size: large;
 
 }
 /*Footer section*/
 footer{
     background-color: #1F2937;
+    text-align: center;
 
 }
 .footer-font{
