@@ -1,10 +1,4 @@
-body{
-/*display:flex;
-flex-direction: column;
-text-align: center;*/
-padding-left: ;
-padding-right: ;
-}
+
 
 
 /*.header-content{
@@ -47,14 +41,7 @@ padding-right: ;
     gap: 8px;
     flex: 1 1 auto;;
 }
-.headersection2-item{
-    
-}
 
-
-.push{
-    
-}
 .header-img{
     font-size: 18px;
     color: #E5E7EB;
@@ -96,6 +83,12 @@ padding-right: ;
     color:#E5E7EB;
     background-color:#3882F8 ;
     border: 1px solid #F9FAF8;
+    border-radius: 4px;
+    padding: 4px 10px;
+}
+.signup2:hover{
+    background-color: #F9FAF8;
+    color: white;
 }
 
 header{
@@ -160,6 +153,10 @@ img{
     font-size: large;
 
 }
+
+
+
+
 /*Footer section*/
 footer{
     background-color: #1F2937;
@@ -185,5 +182,35 @@ footer{
 }
 
 .call-to-action{
+    display:flex; 
+    text-align: center;
+    justify-content: center;
+    padding: 50px 0px 50px 0px;;
 
+
+
+
+}
+.call-to-action-item{
+    background: #3882F8;
+    padding: 40px;
+    display: flex;
+    border-radius: 8px;
+    gap: 2em;
+    align-items: center;
+  
+    
+    
+}
+.call-to-action-writing1{
+    color:#F9FAF8 ;
+    text-align: left;
+    font-size: 15px;
+    font-weight: bold;
+}
+.call-to-action-writing2{
+    color:#F9FAF8 ;
+    text-align: left;
+    font-size: 15px;
+    
 }
